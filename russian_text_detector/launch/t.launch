@@ -1,0 +1,7 @@
+<launch>
+
+	<node pkg="russian_text_detector" name="camera" type="camera.py"/>
+	<node pkg="russian_text_detector" name="recog" type="recog.py"/>
+	<node pkg="russian_text_detector" name="matching" type="check.py"/>
+
+</launch>
